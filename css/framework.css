@@ -1,0 +1,270 @@
+/* Start box */
+.d-flex{
+    display: flex;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-grid-450{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(450px , 1fr));
+    gap: 30px;
+}
+.d-grid-300{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    gap: 20px;
+}
+.d-grid-200{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+    gap: 20px;
+}
+.d-grid-155{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(155px , 1fr));
+    gap: 15px;
+}
+.gap20{
+    gap: 20px;
+}
+.mobile-grid{
+   @media(max-width:767px){
+    grid-template-columns: minmax(200px , 1fr);
+   }
+}
+.mobile-block{
+@media(max-width:767px){
+    flex-direction: column;
+    text-align: center;
+  align-items: center;
+}
+ }
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+/* End box */
+/* Start font */
+.f-14{
+    font-size: 14px;
+}
+.f-13{
+    font-size: 13px;
+}
+/* End font */
+/* Strat margin-padding */
+.p-20{
+    padding: 20px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-5{
+    padding: 5px;
+}
+.p-t10{
+    padding-top: 10px;
+}
+.p-t20{
+    padding-top: 20px;
+}
+.p-t30{
+    padding-top: 30px;
+}
+
+.p-bo40{
+    padding-bottom: 40px;
+}
+.p-bo20{
+    padding-bottom: 20px;
+}
+.p-bo10{
+    padding-bottom: 20px;
+}
+.p-button{
+    padding: 5px 10px;
+}
+.m-20{
+    margin: 20px;
+}
+
+.m-t30{
+    margin-top: 30px;
+}
+.m-t20{
+    margin-top: 20px;
+}
+.m-t15{
+    margin-top: 15px;
+}
+.m-t10{
+    margin-top: 10px;
+}
+.m-t5{
+    margin-top: 5px;
+}
+.m-bo10{
+    margin-bottom: 10px;
+}
+.m-bo20{
+    margin-bottom: 20px;
+}
+.m-bo30{
+    margin-bottom: 30px;
+}
+.m-b10{
+    margin-block: 10px;
+}
+.m-l20{
+    margin-left: 20px;
+}
+.m-l10{
+    margin-left: 10px;
+}
+/* End margin-padding */
+/* Start color */
+.bg-white{
+background-color: white;
+}
+.bg-eee{
+background-color: #eee;
+}
+.c-777{
+    color: #777;
+}
+.c-black{
+    color: black;
+}
+.bg-blue{
+    background-color: rgb(0 117 255 / 20%);
+}
+.bg-orange{
+    background-color: rgb(245 158 11 / 20%);
+}
+.bg-green{
+    background-color: rgb(34 197 94 / 20%);
+}
+.bg-red{
+    background-color: #ff000021;
+}
+.bg-blue-100{
+    background-color: rgb(0 117 255 );
+}
+.bg-orange-100{
+    background-color: rgb(245 158 11 );
+}
+.bg-green-100{
+    background-color: rgb(34 197 94 );
+}
+.bg-red-100{
+    background-color: red;
+}
+.bg-gray{
+    background-color: #f6f6f6;
+}
+.c-blue{
+    color: rgb(0 117 255 );
+}
+.c-orange{
+    color: rgb(245 158 11 );
+}
+.c-green{
+    color: rgb(34 197 94 );
+}
+.c-red{
+    color: red;
+}
+.c-red-80{
+    color: #ff00009c;
+}
+.c-white{
+    color: white;
+}
+.c-gray{
+    color: #f6f6f6;
+}
+.c-gray-8{
+    color: #888;;
+}
+.c-black{
+    color: black;
+}
+/* End color */
+/* Start decoration */
+.b-r6{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.b-r10{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.b-50{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.txt-center{
+    text-align: center;
+}
+.txt-blance{
+    text-wrap: balanced;
+}
+.line-height{
+    line-height: 1.5;
+}
+.border-1px{
+    border: 1px solid #ccc;
+}
+
+/* End decoration */
+/* Start position */
+.p-relative{
+position: relative;
+}
+.f-w{
+    font-weight: bold;
+}
+/* End position */
+/* Start width-height */
+.full-width{
+width: 100%;
+}
+.full-height{
+    height: 100%;
+ }
+ .fit-content{
+    width: fit-content;
+ }
+ .resize-none{
+    resize: none;
+ }
+ .pointer{
+    cursor: pointer;
+ }
+/* End Start width-height*/
+/* Start media */
+    @media(max-width:767px){
+        .mob-none{
+            display: none;
+        }
+    }
+/* End media */
